@@ -1,5 +1,4 @@
 ### Jobs ###
-
 version: 2
 jobs:
   verify:
@@ -15,7 +14,6 @@ jobs:
           command: for i in `find . -maxdepth 1 -name "*.md"`; do mdl -r ~MD013,~MD007 $i; done
 
 ### Workflows ###
-
 workflows:
   version: 2
   lint:
