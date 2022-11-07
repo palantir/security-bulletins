@@ -21,3 +21,4 @@ workflows:
   lint:
     jobs:
       - verify
+
