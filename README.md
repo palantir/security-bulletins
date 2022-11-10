@@ -13,4 +13,5 @@ We endeavor to publicly disclose issues no more than 30 days after an issue has 
 If you identify grammar, spelling, or other superficial errors, please open a pull request with the corrections. Otherwise, we do not accept any other contributions, fixes, or improvements to this project.
 
 ## Further Reading
+
 * [Broadening our Bug Bounty Program: Trust, Security, and Transparency](https://blog.palantir.com/broadening-our-bug-bounty-program-trust-security-and-transparency-aa3bf82f3f9a)
