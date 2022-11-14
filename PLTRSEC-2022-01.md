@@ -46,7 +46,7 @@ On Palantir-managed Foundry enrollments, the Foundry Issues service has been aut
 * Event logs may need to be purged on the underlying Foundry infrastructure to remove valid session tokens from logs.
 * Customers are encouraged to review Foundry audit (security) logs to look for unusual authentication activity during the time period specified.
     * Review SSH or privileged access to your Foundry infrastructure. Foundry event logs are stored on the backend filesystem of the underlying hosts. A malicious actor would need to have read access to the logs in question to extract session tokens. This can be further investigated with your endpoint security tooling.
-    * Review Multipass authentication logs. As session tokens are already authenticated, you can identify abuse by identifying unusual IP addresses or access patterns for a user. Since session tokens have a short time-to-live, concurrent access may be an indicator of malicious activity. 
+    * Review Multipass authentication logs. As session tokens are already authenticated, you can identify abuse by identifying unusual IP addresses or access patterns for a user. Since session tokens have a short time-to-live, concurrent access may be an indicator of malicious activity.
 * Please coordinate with your forward deployed engineering team or Palantir POC for further information on remediation and response.
 
 ### Palantir Foundry - Palantir Cloud or Apollo-Connected Environments
@@ -67,7 +67,7 @@ On Palantir-managed Foundry enrollments, the Foundry Issues service has been aut
 
 2022-03-15: Palantir CIRT acknowledges the incident and initiates response procedures.
 
-2022-03-15: As a result of the coordinated investigation, affected products and versions are identified. Foundry Issues versions 2.244.0 (released February 21, 2022) to 2.249.0 (released March 15, 2022) are impacted with this bug. 
+2022-03-15: As a result of the coordinated investigation, affected products and versions are identified. Foundry Issues versions 2.244.0 (released February 21, 2022) to 2.249.0 (released March 15, 2022) are impacted with this bug.
 
 2022-03-15: Product Development issues a patch and releases Foundry Issues version 2.249.1. Products fixes are backported to Foundry Issues 2.249.0, 2.248.0, 2.247.0. Palantir's software delivery mechanisms are updated such that vulnerable Foundry Issues versions can no longer be deployed.
 
