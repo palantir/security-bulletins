@@ -43,7 +43,7 @@ On Palantir-managed environments, db-controller has been upgraded to version 0.1
 
 2022-07-11: Password rotation for all known impacted stacks was completed.
 
-2022-01-23: [Public disclosure as per our commitment to transparency](https://blog.palantir.com/broadening-our-bug-bounty-program-trust-security-and-transparency-aa3bf82f3f9a).
+2023-01-09: [Public disclosure as per our commitment to transparency](https://blog.palantir.com/broadening-our-bug-bounty-program-trust-security-and-transparency-aa3bf82f3f9a).
 
 ## Acknowledgement
 
