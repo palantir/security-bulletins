@@ -2,7 +2,7 @@
 
 **Bulletin ID:** PLTRSEC-2022-12
 
-**CVE:** CVE-2022-27893
+**CVE:** CVE-2022-27897
 
 **Affected Products / Versions:** Palantir Gotham
 
@@ -10,7 +10,7 @@
 
 ## Summary
 
-Palantir Gotham version prior to 3.22.11.2 included two unauthenticated endpoints that would have allowed an attacker to exhaust the memory of the Gotham dispatch server.
+Palantir Gotham version prior to 3.22.11.2 included an unauthenticated endpoint that would have allowed an attacker to exhaust the memory of the Gotham dispatch server.
 
 ## Background
 
@@ -20,7 +20,7 @@ Dispatch is a core Gotham service used to enforce access control, generate logs,
 
 ## Details
 
-On November 6th it was discovered that Gotham included an unauthenticated endpoint that would load portions of maliciously crafted zip files to memory. An attacker could repeatedly hit either of these endpoints, which would allow them to exhaust memory resources on the dispatch server.
+On November 6th it was discovered that Gotham included an unauthenticated endpoint that would load portions of maliciously crafted zip files to memory. An attacker could repeatedly upload a malicious zip file, which would allow them to exhaust memory resources on the dispatch server.
 
 ## Remediation
 

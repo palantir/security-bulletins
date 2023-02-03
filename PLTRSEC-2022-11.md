@@ -30,8 +30,6 @@ On Palantir-managed Gotham enrollments, Gotham has been automatically upgraded t
 
 2022-10-26: Palantir infosec is notified about the unauthenticated logging endpoint in Gotham. Palantir appsec validates.
 
-2022-11-06: Palantir infosec is notified about the unauthenticated zip upload vulnerability in Gotham. Palantir appsec validates and notifies product development of the vulnerability.
-
 2022-11-09: Product development releases Gotham 3.22.11.2 which resolves the issue.
 
 2023-2-03: [Public disclosure as per our commitment to transparency](https://blog.palantir.com/broadening-our-bug-bounty-program-trust-security-and-transparency-aa3bf82f3f9a).
