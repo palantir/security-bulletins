@@ -1,6 +1,6 @@
 # Security Bulletin
 
-**Bulletin ID:** PLTRSEC-2023-03
+**Bulletin ID:** PLTRSEC-2022-13
 
 **CVE:** CVE-2022-48307
 
