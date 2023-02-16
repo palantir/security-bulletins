@@ -1,6 +1,6 @@
 # Security Bulletin
 
-**Bulletin ID:** PLTRSEC-2022-09
+**Bulletin ID:** PLTRSEC-2022-15
 
 **CVE:** CVE-2022-27890
 
