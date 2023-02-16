@@ -4,7 +4,7 @@
 
 **CVE:** CVE-2022-27891
 
-**Affected Products / Versions:** Palantir Gotham versions before 103.30221005.0
+**Affected Products / Versions:** Palantir Gotham versions before 3.22.10.4
 
 **Publication Date:** Feb 3, 2023
 
