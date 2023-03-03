@@ -1,3 +1,8 @@
+|This repository has been archived.|
+| --- |
+|Security bulletins will be published to our [Safebase](https://palantir.safebase.us/) site under **Trust Center Updates**|
+| --- |
+
 # Palantir Security Bulletins
 
 ## About This Repository
